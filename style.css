@@ -1,0 +1,100 @@
+/* Background image */
+header {
+  height: 100vh;
+  background-image: url(pic1.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Navigation stuff */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: 765285;
+    color: white;
+}
+
+
+    /* Text on Background */
+    .top-center {
+        position: relative;
+        bottom: 200px;
+        font-family: helvetica, arial, sans-serif;
+        text-shadow: 0 1px 3px rgba(0,0,0,.8);
+
+    }
+    h1 {
+        font-weight: bold;
+        font-family: helvetica, arial, sans-serif;
+        color: linen;
+        font-size: 80px;
+    }
+    {       border-style: dashed;
+            border-width: 3px;
+            border-left-width: 3px;
+            border-right-width: 3px;
+            border-color: linen;}
+    h2 {
+        font-weight: lighter;
+        font-style: italic;
+        font-family: helvetica, arial, sans-serif;
+        color: linen;
+        top: -50px;
+        bottom: 100px;
+        left: 100px;
+        border-style: dashed;
+        border-width: 3px;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        border-color: linen;
+    }
+    h3 {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 2.5em;
+    margin: 4px;
+    padding: 4px;
+    color: linen;
+
+}
+h4 {
+font-size: 1.5em;
+font-family: helvetica, arial, sans-serif;
+background-color: 52BAD5;
+margin: 20px;
+padding: 40px;
+}
+    body {
+        font-family: helvetica;
+        font-size: 20px;
+        color: linen;
+        background-color: FF7E5F;
+    }
+    p {
+    font-family: helvetica;
+    font-size: 20px;
+    color: linen;
+    line-height: 1.5;
+    text-align: left;
+    }
