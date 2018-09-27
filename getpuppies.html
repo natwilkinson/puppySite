@@ -1,6 +1,7 @@
-<!DOCKTYPE html>
+<!doctype html>
 <html>
 <head>
+    <meta charset="utf-8"/>
   <title>Data</title>
   <link rel="stylesheet"
 href="style.css">
@@ -19,7 +20,7 @@ href="style.css">
   <a class="active" href="getpuppies.html">Get Puppies</a>
 </div>
 
-<h2>where you can look to adopt these puppers:</h2>
+<h3>Where you can look to adopt these puppers:</h3>
 <p><a
     href="https://atlantahumane.org/">Atlanta Humane Society</a>
 <a href="https://atlantahumane.org/"><img src="humane.jpeg" width="120" height="140" title="Humane Society" alt="Humane Society"></a>
@@ -31,3 +32,22 @@ href="style.css">
     href="https://furkids.org/">Furkids</a>
 <a href="https://furkids.org/"><img src="furkids.jpeg" width="120" height="120" title="Furkids" alt="Furkids"></a>
 </p>
+<h3>I could use your help...</h3>
+<em>Help me get a puppy!!!</em>
+  <form data-netlify="true" action="contact.php" method="post"> 
+    <p>Name:</p>
+<p><input name="name" value=""></p>
+
+<p>Should my boyfriend get me a puppy? Sign this petition.</p>
+<p><input type="radio" name="areyou" value="Absolutely!"> Absolutely</p>
+<p><input type="radio" name="areyou" value="Um duh"> Um duh</p>
+<p><input type="radio" name="areyou" value="Yassss"> Yassss</p>
+<p><input type="radio" name="areyou" value="Best idea ever" checked> Best idea ever</p>
+      
+<p>Puppy suggestions are appreciated! I will send the list along ;)</p>
+<p><textarea rows="10" cols="20" name="comments"></textarea></p>
+
+<p><input type="submit"></p>
+
+</form>
+    </body>
