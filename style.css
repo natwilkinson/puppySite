@@ -1,7 +1,7 @@
 /* Background image */
 header {
   height: 100vh;
-  background-image: url(pic1.jpeg);
+  background-image: url(images/pic1.jpeg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -36,54 +36,46 @@ header {
     color: white;
 }
 
+/* Text on Background */
+.top-center {
+    position: relative;
+    bottom: 200px;
+    font-family: helvetica, arial, sans-serif;
+    text-shadow: 0 1px 3px rgba(0,0,0,.8);
 
-    /* Text on Background */
-    .top-center {
-        position: relative;
-        bottom: 200px;
-        font-family: helvetica, arial, sans-serif;
-        text-shadow: 0 1px 3px rgba(0,0,0,.8);
+}
+h1 {
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+    color: linen;
+    font-size: 80px;
 
-    }
-    h1 {
-        font-weight: bold;
-        font-family: helvetica, arial, sans-serif;
-        color: linen;
-        font-size: 80px;
-
-    }
-    {       border-style: dashed;
-            border-width: 3px;
-            border-left-width: 3px;
-            border-right-width: 3px;
-            border-color: linen;}
-    h2 {
-        font-weight: lighter;
-        font-style: italic;
-        font-family: helvetica, arial, sans-serif;
-        color: linen;
-        top: -50px;
-        bottom: 100px;
-        left: 100px;
-        border-style: dashed;
-        border-width: 3px;
-        border-left-width: 3px;
-        border-right-width: 3px;
-        border-color: linen;
-    }
-    h3 {
+}
+h2 {
+    font-weight: lighter;
+    font-style: italic;
+    font-family: helvetica, arial, sans-serif;
+    color: linen;
+    top: -50px;
+    bottom: 100px;
+    left: 100px;
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: linen;
+}
+h3 {
     font-family: helvetica, arial, sans-serif;
     font-size: 2.5em;
     margin: 4px;
     padding: 4px;
     color: linen;
-
 }
 h4 {
     font-size: 1.5em;
     font-family: helvetica, arial, sans-serif;
     text-align: right;
-    margin: -20px;
     margin-bottom: 50px;
     margin-top: 1.6em;
 }
@@ -93,14 +85,14 @@ body {
     font-size: 20px;
     color: linen;
     background-color: #FF7E5F;
-    }
+}
 p {
     font-family: helvetica;
     font-size: 20px;
     color: linen;
     line-height: 1.5;
     text-align: left;
-    }
+}
 
 h5 {  
     font-weight: bold;
@@ -111,8 +103,12 @@ h5 {
     bottom: 50px;
     left: 50px;
     text-align: center;
-    margin-block-end: 20px;
-    margin-block-start: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
     margin-right: 80px;
     margin-left: 80px;
 }
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
